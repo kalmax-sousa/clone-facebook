@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Text, Row, Button} from './style'
+import {Container, Text, Row, Button} from './styles'
 import {Feather, MaterialCommunityIcons} from '@expo/vector-icons';
 
 const AppBar = () => {
