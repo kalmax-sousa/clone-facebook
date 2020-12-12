@@ -44,3 +44,9 @@ export const Separator = styled.View`
     height: 26px;
     width: 1px;
 `;
+
+export const BottonDivider = styled.View`
+    background: #f0f2f5;
+    height: 9px;
+    width: 100%;
+`;
