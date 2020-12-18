@@ -8,9 +8,12 @@ export const Container = styled.View`
 `;
 
 export const User = styled.Image`
+    border-color: #1777f2;
     border-radius: 20px;
+    border-width: ${props => (props.story ? '3px' : 0)};
     height: 40px;
     width: 40px;
+
 `;
 
 export const UserActive = styled.View`
