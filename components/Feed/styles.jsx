@@ -18,7 +18,7 @@ export const Row = styled.View`
     flex-direction: row;
 `;
 
-export const User = styled.View`
+export const User = styled.Text`
     color: #222121;
     font-size: 15px;
     font-weight: bold;
@@ -39,7 +39,7 @@ export const Post = styled.Text`
 export const Photo = styled.Image`
     height: 300px;
     margin-top: 9px;
-    width: 100px;
+    width: 100%;
 `;
 
 export const Footer = styled.View`
@@ -87,9 +87,9 @@ export const Icon = styled.View`
     margin-right: 6px;
 `;
 
-export const Text = styled.Text`
-    color: #424040;
-    font-size: 12px;
+export const TextButton = styled.Text`
+  color: #424040;
+  font-size: 12px;
 `;
 
 export const BottonDivider = styled.View`

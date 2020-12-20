@@ -3,7 +3,7 @@ import { Container, Row, Input, Divider, Menu, MenuText, Separator, BottonDivide
 import Avatar from '../Avatar';
 import {Ionicons, MaterialCommunityIcons, MaterialIcons} from '@expo/vector-icons'
 
-const userAvatar = require('../../assets/user.png')
+const userAvatar = require('../../assets/user3.png')
 
 const ToolBar = () => {
     return(

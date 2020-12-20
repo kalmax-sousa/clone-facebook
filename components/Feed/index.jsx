@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import {Entypo, AntDesign, MaterialCommunityIcons} from '@expo/vector-icons';
-import { BottonDivider, Button, Container, Footer, FooterCount, FooterMenu, Header, Icon, IconCount, Photo, Post, Row, Separator, Text, TextCount, Time, User } from './styles';
+import { BottonDivider, Button, Container, Footer, FooterCount, FooterMenu, Header, Icon, IconCount, Photo, Post, Row, Separator, TextButton, TextCount, Time, User } from './styles';
 import Avatar from '../Avatar';
 
 const Feed = () => {
@@ -23,7 +23,7 @@ const Feed = () => {
                             color="#747476"
                         />
                         <Entypo 
-                            name="globo"
+                            name="globe"
                             size={12}
                             color="#747476"
                         />  
@@ -68,7 +68,7 @@ const Feed = () => {
                             color="#424040"
                         />
                     </Icon>
-                    <Text>Curtir</Text>
+                    <TextButton>Curtir</TextButton>
                 </Button>
 
                 <Button>
@@ -79,7 +79,7 @@ const Feed = () => {
                             color="#424040"
                         />
                     </Icon>
-                    <Text>Comentar</Text>
+                    <TextButton>Comentar</TextButton>
                 </Button>
 
                 <Button>
@@ -90,7 +90,7 @@ const Feed = () => {
                             color="#424040"
                         />
                     </Icon>
-                    <Text>Compartilhar</Text>
+                    <TextButton>Compartilhar</TextButton>
                 </Button>
             </FooterMenu>
         </Footer>
@@ -113,7 +113,7 @@ const Feed = () => {
                             color="#747476"
                         />
                         <Entypo 
-                            name="globo"
+                            name="globe"
                             size={12}
                             color="#747476"
                         />  
@@ -158,7 +158,7 @@ const Feed = () => {
                             color="#424040"
                         />
                     </Icon>
-                    <Text>Curtir</Text>
+                    <TextButton>Curtir</TextButton>
                 </Button>
 
                 <Button>
@@ -169,7 +169,7 @@ const Feed = () => {
                             color="#424040"
                         />
                     </Icon>
-                    <Text>Comentar</Text>
+                    <TextButton>Comentar</TextButton>
                 </Button>
 
                 <Button>
@@ -180,7 +180,7 @@ const Feed = () => {
                             color="#424040"
                         />
                     </Icon>
-                    <Text>Compartilhar</Text>
+                    <TextButton>Compartilhar</TextButton>
                 </Button>
             </FooterMenu>
         </Footer>

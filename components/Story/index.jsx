@@ -14,7 +14,7 @@ const Story = () => {
             style={{padding: 11}}
         >
             <Card>
-                <CardStory source={require('../../assets/user3.jpg')}/>
+                <CardStory source={require('../../assets/user3.png')}/>
                 <CardUser>
                     <AntDesign 
                         name="plus"

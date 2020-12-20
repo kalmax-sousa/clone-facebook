@@ -25,6 +25,7 @@ export const CardUser = styled.View`
     background: #ffffff;
     border-radius: 20px;
     height: 39px;
+    justify-content: center;
     left: 8px;
     position: absolute;
     top: 8px;
@@ -42,7 +43,7 @@ export const Text = styled.Text`
     color: #ffffff;
     font-size: 13px;
     font-weight: bold;
-    text-shadow: 1px 1px 1ps rgba(0, 0, 0, .3);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
 `;
 
 export const BottonDivider = styled.View`

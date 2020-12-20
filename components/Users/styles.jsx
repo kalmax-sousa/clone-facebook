@@ -12,8 +12,9 @@ export const Room = styled.TouchableOpacity`
     border-color: #82b1ff;
     border-radius: 20px;
     border-width: 1px;
-    justify-content: center;
+    flex-direction: row;
     height: 40px;
+    justify-content: center;
     margin-right: 12px;
     padding: 0 15px;
     width: 115px;
@@ -21,7 +22,7 @@ export const Room = styled.TouchableOpacity`
 
 export const Text = styled.Text`
     color: #1777f2;
-    font-size: 15.5px;
+    font-size: 14px;
     padding-left: 6px;
 `;
 

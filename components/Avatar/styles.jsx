@@ -4,13 +4,12 @@ export const Container = styled.View`
     height: 40px;
     position: relative;
     width: 40px;
-    background-color: orange;
 `;
 
 export const User = styled.Image`
     border-color: #1777f2;
     border-radius: 20px;
-    border-width: ${props => (props.story ? '3px' : 0)};
+    border-width: ${props => (props.story ? "3px" : 0)};
     height: 40px;
     width: 40px;
 
@@ -21,9 +20,9 @@ export const UserActive = styled.View`
     border-color: #ffffff;
     border-radius: 8px;
     border-width: 2px;
-    bottom: -2;
+    bottom: -2px;
     height: 15px;
     position: absolute;
-    right: -2;
+    right: -2px;
     width: 15px;
 `;
