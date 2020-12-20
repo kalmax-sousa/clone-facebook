@@ -1,7 +1,7 @@
 import React from 'react';
-import { ScrollView, View } from 'react-native';
-import {Entypo} from '@expo/vector-icons';
-import { Container, Header, Photo, Post, Row, Time, User } from './styles';
+import { View } from 'react-native';
+import {Entypo, AntDesign, MaterialCommunityIcons} from '@expo/vector-icons';
+import { BottonDivider, Button, Container, Footer, FooterCount, FooterMenu, Header, Icon, IconCount, Photo, Post, Row, Separator, Text, TextCount, Time, User } from './styles';
 import Avatar from '../Avatar';
 
 const Feed = () => {
@@ -41,6 +41,150 @@ const Feed = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </Post>
         <Photo source={require('../../assets/post1.jpg')}/>
+
+        <Footer>
+            <FooterCount>
+                <Row>
+                    <IconCount>
+                        <AntDesign 
+                            name="like1"
+                            size={12}
+                            color="#ffffff"
+                        />
+                    </IconCount>
+                    <TextCount>128</TextCount>
+                </Row>
+                <TextCount>24 comentários</TextCount>
+            </FooterCount>
+
+            <Separator />
+
+            <FooterMenu>
+                <Button>
+                    <Icon>
+                        <AntDesign 
+                            name="like2"
+                            size={20}
+                            color="#424040"
+                        />
+                    </Icon>
+                    <Text>Curtir</Text>
+                </Button>
+
+                <Button>
+                    <Icon>
+                        <MaterialCommunityIcons 
+                            name="comment-outline"
+                            size={20}
+                            color="#424040"
+                        />
+                    </Icon>
+                    <Text>Comentar</Text>
+                </Button>
+
+                <Button>
+                    <Icon>
+                        <MaterialCommunityIcons 
+                            name="share-outline"
+                            size={20}
+                            color="#424040"
+                        />
+                    </Icon>
+                    <Text>Compartilhar</Text>
+                </Button>
+            </FooterMenu>
+        </Footer>
+        <BottonDivider />
+      </Container>
+
+      <Container>
+        <Header>
+            <Row>
+                <Avatar 
+                    source={require('../../assets/user1.jpg')}
+                />
+                <View style={{padding: 10}}>
+                    <User>Juliana Souza</User>
+                    <Row>
+                        <Time>4d</Time>
+                        <Entypo 
+                            name="dot-single"
+                            size={14}
+                            color="#747476"
+                        />
+                        <Entypo 
+                            name="globo"
+                            size={12}
+                            color="#747476"
+                        />  
+                    </Row>
+                </View>
+            </Row>
+            <Entypo 
+                name="dots-three-horizontal"
+                size={15}
+                color="#222121"
+            /> 
+        </Header>
+
+        <Post>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus perspiciatis eveniet quo, atque beatae debitis provident nihil a harum dignissimos alias, vero ab tempore minima laudantium at saepe nisi totam.
+        </Post>
+        <Photo source={require('../../assets/post2.jpg')}/>
+
+        <Footer>
+            <FooterCount>
+                <Row>
+                    <IconCount>
+                        <AntDesign 
+                            name="like1"
+                            size={12}
+                            color="#ffffff"
+                        />
+                    </IconCount>
+                    <TextCount>204</TextCount>
+                </Row>
+                <TextCount>45 comentários</TextCount>
+            </FooterCount>
+
+            <Separator />
+
+            <FooterMenu>
+                <Button>
+                    <Icon>
+                        <AntDesign 
+                            name="like2"
+                            size={20}
+                            color="#424040"
+                        />
+                    </Icon>
+                    <Text>Curtir</Text>
+                </Button>
+
+                <Button>
+                    <Icon>
+                        <MaterialCommunityIcons 
+                            name="comment-outline"
+                            size={20}
+                            color="#424040"
+                        />
+                    </Icon>
+                    <Text>Comentar</Text>
+                </Button>
+
+                <Button>
+                    <Icon>
+                        <MaterialCommunityIcons 
+                            name="share-outline"
+                            size={20}
+                            color="#424040"
+                        />
+                    </Icon>
+                    <Text>Compartilhar</Text>
+                </Button>
+            </FooterMenu>
+        </Footer>
+        <BottonDivider />
       </Container>
     </>
   );
