@@ -20,6 +20,10 @@ export const Room = styled.TouchableOpacity`
     width: 115px;
 `;
 
+export const Column = styled.View`
+    flex-direction: column;
+`;
+
 export const Text = styled.Text`
     color: #1777f2;
     font-size: 14px;

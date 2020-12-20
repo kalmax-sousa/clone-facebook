@@ -80,6 +80,7 @@ export const FooterMenu = styled.View`
 `;
 
 export const Button = styled.TouchableOpacity`
+    align-items: center;
     flex-direction: row;
 `;
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView } from 'react-native';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
-import { BottonDivider, Container, Room, Text, User } from './styles';
+import { BottonDivider, Container, Column, Room, Text, User } from './styles';
 import Avatar from '../Avatar';
 
 
@@ -20,7 +20,10 @@ const Users = () => {
                   size={26}
                   color="#e141fc"
                 />
-                <Text>Criar Sala</Text>
+                <Column>
+                  <Text>Criar</Text>
+                  <Text>Sala</Text>
+                </Column>
               </Room>
 
               <User>
