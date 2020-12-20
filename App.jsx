@@ -14,19 +14,19 @@ const Container = styled.SafeAreaView`
 const App = ()  => {
   return(
     <>
-    <StatusBar 
-      backgroundColor="#ffffff"
-      barStyle="dark-content"
-    />
-    <Container>  
-      <ScrollView>
-        <AppBar/>
-        <ToolBar/>
-        <Users/>
-        <Story/>
-        <Feed />
-      </ScrollView>
-    </Container>
+      <StatusBar 
+        backgroundColor="#ffffff"
+        barStyle="dark-content"
+      />
+      <Container>  
+        <ScrollView>
+          <AppBar/>
+          <ToolBar/>
+          <Users/>
+          <Story/>
+          <Feed />
+        </ScrollView>
+      </Container>
     </>
   )
 }
